@@ -45,8 +45,10 @@ const CompromissosSemana = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <View style={styles.infoContainer}>
-        <Text style={styles.infoTexto}>[Seu nome]</Text>
-        <Text style={styles.infoTexto}>[Sua turma]</Text>
+        <Text style={styles.infoTexto}>Maria Clara Borges</Text>
+        <Text style={styles.infoTexto}>
+          8° Semestre - Ciência da Computação
+        </Text>
       </View>
 
       <SectionList
